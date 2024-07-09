@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "sans-serif";
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.home ul li {
+    display: flex;
+    width: 14px;
+    gap: 15px;
+    list-style: none;
+    padding-top: 14px;
+}
+.heading{
+    display:flex;
+    gap: 15px;
+    align-items: center;
+    padding: 23px 14px;
+    padding-top: 14px;
+    width: 100%;
+    font-size: 13px;
+
+}
+.heading img{
+    width:30px;
+}
+
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.footer{
+    display:flex;
+    font-size: 10px;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+
+}
+.footer a{
+    color: grey;
+}
+
+.right{
+    margin: 16px 0;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34,34);
+
+}
+.header > *{
+    padding: 20px;
+
+}
+.container{
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    max-height: 70vh;
+    overflow: scroll;
+}
+.spotify-playlist{
+    padding: 16px;
+}
+
+.spotify-playlist .card{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+
+.card > *{
+    padding-top: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+
+}
+.card{
+    position: relative;
+}
+.play{
+    position: absolute;
+    right: 15px;
+    top: 400px;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+.buttons > *{
+    margin: 0 12px;
+}
+.login{
+    background-color:rgb(34, 34,34);
+    color: rgb(146, 146, 146);
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+
+}
+.login:hover{
+    font-size: 17px;
+    color: white;
+}
+
+.signup{
+    background-color:white;
+    color: black;
+    border-radius: 21px ;
+    width: 70px;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.signup:hover{
+    width: 80px;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(117, 203, 117);
+    width: 100%;
+    padding: 12px;
+    left:0;
+
+}
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
